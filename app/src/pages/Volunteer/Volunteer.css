@@ -1,0 +1,141 @@
+#root {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.form-wrapper {
+    color: white;
+    background-color: #0d752a;
+    /* Greenish color */
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    >.form-body {
+        text-align: left;
+        max-width: 50rem;
+        padding: 2rem;
+        margin-bottom: 2rem;
+
+        input {
+            &:hover {
+                border: 0px;
+            }
+        }
+    }
+
+    >.img-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 60px 0;
+        overflow: hidden;
+
+        /* transform: translate(0, 13%); */
+        img {
+            width: 90%;
+            height: auto;
+            padding-bottom: 20px;
+
+        }
+    }
+}
+
+.opportunities-wrapper {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >.opportunity-body {
+        max-width: 50rem;
+        padding: '2rem';
+        margin-bottom: '2rem';
+    }
+}
+
+Button {
+    color: black !important;
+    /* Black color for text */
+    background-color: #dfb924 !important;
+    /* Yellowish color */
+    margin-left: 10px;
+
+    /* Add some space between buttons */
+    &:hover {
+        background-color: #f9d442 !important;
+    }
+}
+
+TextField {
+    background-color: white;
+    /* White color */
+}
+
+.opportunity-how-to {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    Paper {
+        background-color: #f9d442;
+        height: 100%;
+    }
+}
+
+.card {
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken(#fff, 5%);
+    }
+
+    &:active {
+        background-color: lightgray;
+    }
+}
+
+.volunteer-button {
+    margin-top: 3rem;
+}
+
+input {
+    background-color: white !important;
+    border-radius: none;
+}
+
+h2,
+h3 {
+    font-weight: bold !important;
+}
+
+.process-dots {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.steps-label {
+    color: white;
+    background-color: #0d752a;
+    font-weight: 600;
+    min-height: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.col-3 {
+    width: 25%;
+    position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

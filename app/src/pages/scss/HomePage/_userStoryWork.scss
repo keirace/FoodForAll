@@ -1,0 +1,45 @@
+/* UserStoryWork.css */
+.user-story-work {
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.user-story-work:last-child {
+  margin-right: 0;
+}
+
+.user-story-work:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-story-work img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.user-story-work h3,
+.user-story-work p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.user-story-work h3 {
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+.user-story-work p {
+  font-size: 1rem;
+  color: #666666;
+}

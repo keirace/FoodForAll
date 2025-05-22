@@ -1,0 +1,10 @@
+/* UserStoriesList.css */
+.user-stories-container {
+  display: flex;
+  justify-content: space-between; /* Items are evenly distributed in the line */
+  margin-top: 100px;
+}
+
+.user-story {
+  width: 30%; /* Adjust the width of each user story */
+}

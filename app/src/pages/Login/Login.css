@@ -1,0 +1,68 @@
+.background {
+  background-image: url(https://source.unsplash.com/random?wallpapers);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: full;
+  max-height: 600px;
+}
+
+/* LoginStyles.css */
+.containerL {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  border-radius: 5px !important;
+  
+
+  >.paper {
+    background-color: #0d752a;
+    position: relative;
+    top: -15%;
+  }
+
+  >.form {
+    /* margin-top: 1rem; */
+    background-color: #fff;
+  }
+
+  .submit {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #DCD205;
+    transition: background-color 0.5s ease;
+    transition: transform 0.10s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    transition: all 0.5s ease-out;
+  }
+
+  .submit:hover,
+  .submit:focus {
+    background-color: #ffb700;
+    transform: scale(1.1);
+  }
+}
+
+
+
+.paper-content {
+  margin: 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  >.avatar {
+    margin: 1rem;
+    background-color: #DCD205;
+  }
+}
+
+
+.link {
+  color: #fff;
+}
+
+
+.text {
+  background-color: #fff;
+
+}

@@ -1,0 +1,44 @@
+.footer {
+  background-color: #0d752a;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* Center the blocks horizontally */
+  flex-wrap: wrap;
+}
+
+.footer-block {
+  flex: 1; /* Each block takes up equal space */
+  margin: 0 40px; /* Add some margin between blocks */
+  margin-bottom: 30px;
+  width: 150%;
+}
+
+.footer-logo {
+  flex: 1; /* Each block takes up equal space */
+  margin: 10 5px; /* Add some margin between blocks */
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  color: white;
+  text-align: left;
+  width: 120%;
+}
+
+.logo-img {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.copyright {
+  color: white; /* Copyright text color */
+}

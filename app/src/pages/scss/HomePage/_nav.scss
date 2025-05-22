@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed !important; /* Fix the navbar at the top */
+  background-color: #0d752a !important; /* Greenish color */
+  top: 0 !important; /* Position it at the top of the viewport */
+  width: 100% !important; /* Occupy full width of the viewport */
+  z-index: 1000 !important; /* Ensure it stays above other content */
+}
+
+.navbar-title {
+  margin-top: 0.8% !important;
+  color: white !important;
+}
+
+.navbar-buttons {
+  margin-left: auto !important; /* Push buttons to the right by aligning to the right edge */
+  margin-right: 20px !important; /* Add some space between buttons and the right edge */
+}
+
+.navbar-button {
+  color: #08531d !important; /* Black color for text */
+  background-color: #dfb924 !important; /* Yellowish color */
+  margin-left: 10px !important; /* Add some space between buttons */
+  font-weight: bold !important;
+}

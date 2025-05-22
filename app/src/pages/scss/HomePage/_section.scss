@@ -1,0 +1,58 @@
+.donate-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: orange;
+  padding: 20px;
+}
+
+.donate-block {
+  text-align: center;
+  margin: 20px;
+  width: 250px; /* Adjusted width for consistency */
+  height: 250px; /* Adjusted height for consistency */
+  color: #0d752a; /* Font color */
+  text-decoration: none; /* Remove default underline */
+  background-color: white; /* Block background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+.donate-block:hover {
+  transform: translateY(-5px); /* Move block up slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adjust shadow on hover */
+}
+
+.block-content {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.block-link {
+  margin-top: 10px;
+  display: block;
+  text-decoration: none; /* Remove default underline */
+}
+
+.block-link span {
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.donate-block img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.donate-block h3 {
+  margin: 5px 0;
+}
+
+.donate-block p {
+  font-size: 14px;
+}
