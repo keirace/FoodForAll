@@ -1,12 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/j48a217e)
-
 # **FoodForAll Website**
 The FoodForAll website is a platform designed to address food insecurity by connecting food donors, volunteers, and recipients. Below, I’ll provide an overview of the website’s purpose, components, and user stories.
 
-**Purpose**
+## **Purpose**
 The primary goal of the FoodForAll website is to facilitate the efficient distribution of food resources, encourage donations, and foster community engagement. Users can participate in various ways, including making food donations, contributing money, volunteering, and sharing their personal experiences.
 
-**Components**
+## **Components**
 1. FoodDonation
 Represents a donation of food items.
 Attributes:
@@ -64,7 +62,7 @@ zipcode: ZIP code of the food bank location.
 User Stories
 User stories are granular representations of people’s goals, aspirations, and expectations. They help designers and product managers understand users’ needs, empathize with them, and generate solutions that provide value to the people they design for12. Here are some example user stories for the FoodForAll website:
 
-**Donor’s Perspective:**
+## **Donor’s Perspective:**
 As a food donor, I want to easily submit details about the food items I wish to donate so that they can reach those in need.
 As a donor, I want to receive confirmation and updates on my food donations to stay informed about their impact.
 **Volunteer’s Perspective:**
@@ -74,7 +72,7 @@ As a volunteer, I want to connect with other like-minded individuals and build a
 As a recipient, I want to find nearby food banks, view their operating hours, and access information about available food resources.
 As someone in need, I want to share my personal story to inspire others and create awareness about food insecurity.
 
-**Instructions to Run and Navigate the Website:**
+## **Instructions to Run and Navigate the Website:**
 
 Sign Up:
 
@@ -110,11 +108,8 @@ If you choose to make a donation, you will be directed to the donation payment p
 Enter the necessary details and complete the payment process.
 
 Instructions to RUN : 
-1. switch to app . on terminal type : "npm run dev"
+1. switch to app . on terminal type : `npm run dev`
    front end will start and follow the below link and you should be on the website ~ FOOD FOR ALL.
                          https:/localhost/****
-2. for backend server switch to service and "node server.js"
+2. for backend server switch to service and `node server.js`
    you see data connected and running.
-   
-
-The End.
